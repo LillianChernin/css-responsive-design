@@ -1,0 +1,31 @@
+Question: * Does this target the biggest size or the middle size?
+
+Answer: It targets the middle size
+
+Question: * CSS is interpreted by the browser from the top of the document down.
+How would you write media queries differently if you use max-width versus min-width?
+
+Answer: If you use max-width you should order the media queries decreasing in size
+going from top to bottom.  So for instance you would want to position the max-width: 960px
+above max-width: 640px in the stylesheet. If you use min-width you would want to do
+the opposite and order the media queries increasing in size going from top to bottom.
+So small would be above medium which would be above large.
+
+
+Describe media queries.
+
+Answer: You can add these in your CSS to specify certain styling that only affects
+screens of a certain size.  For instance if the width of the screen is 960px or smaller
+(max-width: 960px;) you can have certain styling that only affects screens of that size.
+
+Identify the different tools you can use to practice responsive design.
+
+Answer: You can use media queries to ensure that your site looks good in a variety
+of screen sizes.  In chrome dev tools they have a tool that allows you to see how your
+page looks on different devices.  Minimize use of photos and tables since they
+are more difficult to use/look good on a variety of screen sizes.
+
+What are the steps to ensure mobile devises are using media queries when loading your web app?
+
+Answer: Put "<meta name="viewport" content="width=device-width, initial-scale=1.0">" in the
+header of your html.
